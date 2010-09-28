@@ -1,0 +1,108 @@
+/*
+Copyright (c) 2010, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.com/yui/license.html
+version: 2.8.1
+*/
+html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}del,ins{text-decoration:none;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:baseline;}sub{vertical-align:baseline;}legend{color:#000;}input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}input,button,textarea,select{font-size:100%;}
+
+a { 
+		text-decoration: none; 
+		color: #000; 
+}
+
+body * {
+        background-color: white;
+        font-family: Times, serif;
+        font-size: 14px;
+        color: #000000;
+		margin: 0px;
+}
+
+ul {
+		list-style: none;
+}
+
+#header {
+        position: relative;
+		top: 0px;
+		left: 0px;
+        padding-top: 0px;
+		margin-bottom: 10px;
+		height: 100px;
+        text-align: center;
+		border-bottom: 1px dotted #000000;
+}
+
+#header h1 {
+        font-family: Lucida Grande, sans-serif;
+        font-size: 24px;
+        font-weight: normal;
+}
+
+#header ul#address {
+        font-size: 10px;
+}
+
+#header ul#address a{
+        font-size: 10px;
+}
+
+#menu { 
+		display:none; 
+}
+
+#resume-content, #portfolio {
+		position: relative;
+		left: 0px;
+		top: 0px;
+		padding-bottom: 50px;
+
+}
+
+#resume-content h1, #portfolio h1 {
+        font-family: Lucida Grande, sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+		padding-bottom: 15px;
+}
+
+#resume-content h2, #portfolio h2 {
+        font-size: 16px;
+        font-weight: bold;
+		padding-bottom: 15px;
+}
+
+#education ul li, #experience ul li, #skills ul li{
+		margin-left: 25px;
+}
+
+#education ul, #experience ul {
+		padding-bottom: 10px;
+}
+
+#portfolio ul {
+		padding-bottom: 15px;
+}
+
+#portfolio img {
+		margin-top: 20px;
+}
+
+.phases li {
+		padding-top: 15px;
+		margin-left: 50px;
+		list-style: circle;
+}
+
+.location {
+		font-weight: bold;
+}
+
+.items li {
+		list-style: disc;
+}
+
+.items ul li {
+		list-style: circle;
+}
