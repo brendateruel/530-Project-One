@@ -25,6 +25,13 @@ body {
         color: #000000;
 }
 
+body#resume #header #nav a#nav-resume {
+		color: #ffffff;
+		font-weight: bold;
+		text-decoration: none;
+		background-color: #ffc0cb;
+}
+
 ul {
 		list-style: none;
 }
@@ -106,6 +113,11 @@ ul {
         padding-left: 50px;
 }
 
+#page-menu li {
+		color: #ffc0cb;
+		font-weight: bold;
+}
+
 #page-menu ul li {
 		font-weight: normal;
 		font-size: 10px;
@@ -126,7 +138,7 @@ ul {
 #resume-content, #portfolio {
 		min-height: 500px;
 		margin-left: 250px;
-		padding-right: 100px;
+		padding-right: 50px;
 		padding-top: 20px;
 		padding-bottom: 50px;
 		padding-left: 50px;
@@ -167,13 +179,9 @@ ul {
 		margin-right: 50px;
 		float: left;
 }
-
-.phases {
-		padding-left: 20px;
-}
 	
 .phases li {
-		padding-top: 15px;
+		padding-top: 5px;
 		list-style: circle;
 }
 
