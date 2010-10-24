@@ -25,6 +25,13 @@ body {
         color: #000000;
 }
 
+body#resume #header #nav a#nav-resume {
+		color: #ffffff;
+		font-weight: bold;
+		text-decoration: none;
+		background-color: #ffc0cb;
+}
+
 ul {
 		list-style: none;
 }
@@ -186,7 +193,12 @@ ul {
 		text-decoration: none;
 }
 
-#portfolio img, #portfolio-item img {
+#portfolio img {
+		margin-right: 50px;
+}
+
+#portfolio-item img {
+		float: left;
 		margin-right: 50px;
 }
 	
