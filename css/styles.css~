@@ -32,10 +32,6 @@ body#resume #header #nav a#nav-resume, body#portfolio #header #nav a#nav-portfol
 		background-color: #ffc0cb;
 }
 
-body#portfolio #page-menu a#page-menu-portfolio {
-		color: #ffc0cb;
-}
-
 ul {
 		list-style: none;
 }
