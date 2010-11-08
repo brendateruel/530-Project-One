@@ -132,6 +132,18 @@ ul {
         padding-left: 50px;
 }
 
+#page-menu p {
+		font-weight: normal;
+		font-size: .8em;
+		padding-left: 20px;
+		padding-right: 20px;
+}
+
+#page-menu p a {
+		color: #e6cac9;
+		font-weight: bold;
+}
+
 #page-menu li {
 		color: #e6cac9;
 		font-weight: bold;
@@ -154,7 +166,7 @@ ul {
 
 }
 
-#resume-content, #portfolio-spread, #portfolio-item, #about-content {
+#resume-content, #portfolio-spread, #portfolio-item, #about-content, #home-content{
 		min-height: 500px;
 		margin-left: 250px;
 		padding-right: 50px;
@@ -165,7 +177,7 @@ ul {
 		background-color: #ffffff;
 }
 
-#resume-content h1, #portfolio-spread h1, #portfolio-item h1, #about-content h1{
+#resume-content h1, #portfolio-spread h1, #portfolio-item h1, #about-content h1, #home-content h1{
         font-family: Lucida Grande, sans-serif;
         font-size: 1.5em;
         font-weight: bold;
@@ -173,11 +185,18 @@ ul {
         color: #333038;
 }
 
-#resume-content h2, #portfolio-spread h2, #portfolio-item h2, #about-content h2{
+#resume-content h2, #portfolio-spread h2, #portfolio-item h2, #about-content h2, #home-content h2{
         font-size: 1.2em;
         font-weight: bold;
 		padding-bottom: 15px;
         color: #333038;
+}
+
+#home-content img {
+		margin-top: 10px;
+		margin-right: 10px;
+		margin-left: 10px;
+		margin-bottom: 10px;
 }
 
 #education ul li, #experience ul li, #skills ul li {
