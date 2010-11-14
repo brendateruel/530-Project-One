@@ -3,7 +3,7 @@ body {
 		margin: 0px auto 0px auto;
 		position: relative;
 		background-color: #ffffff;
-        font-family: Verdana, sans-serif;
+        font-family: Lucida Sans Unicode, Verdana, sans-serif;
         font-size: small;
         color: #000000;
 }
@@ -45,7 +45,7 @@ ul {
 
 #header h1 {
 		text-indent: -11000px;
-        font-family: Lucida Grande, sans-serif;
+        font-family: Eras Light ITC, Lucida Sans Unicode, sans-serif;
         font-size: 2em;
         font-weight: normal;
 		color: #000000;
@@ -138,9 +138,10 @@ ul {
 #page-menu p {
 		font-weight: normal;
 		font-size: .8em;
-		padding-left: 20px;
-		padding-right: 20px;
+		padding-left: 15px;
+		padding-right: 15px;
 		color: gray;
+		text-align: right;
 }
 
 #page-menu p a {
@@ -170,19 +171,57 @@ ul {
 
 }
 
-#resume-content, #portfolio-spread, #portfolio-item, #about-content, #home-content{
+#content-wrap-top {
+		background-color: #d0cabc;
+		background-image: url('../images/vintage-frame-top-thin-lt.png');
+		background-repeat: no-repeat;
+		height: 53px;
+		margin-left: 250px;
+		border-left: 5px solid #e6cac9;
+		border-right: 5px solid #e6cac9;
+		border-top: 5px solid #e6cac9;
+}
+
+#portfolio-spread, #portfolio-item, #home-content{
+		background-color: #d0cabc;
+		background-image: url('../images/vintage-frame-body-thin-lt.png');
+		background-repeat: repeat;
 		min-height: 500px;
 		margin-left: 250px;
 		padding-right: 50px;
+		padding-left: 50px;
 		padding-top: 20px;
 		padding-bottom: 50px;
-		padding-left: 50px;
-		border: 5px solid #e6cac9;
+		border-left: 5px solid #e6cac9;
+		border-right: 5px solid #e6cac9;
 		background-color: #ffffff;
 }
 
+#about-content, #resume-content, #portfolio-spread {
+		background-color: #d0cabc;
+		background-image: url('../images/vintage-frame-body-thin-lt.png');
+		background-repeat: repeat;
+		min-height: 500px;
+		margin-left: 250px;
+		padding-right: 70px;
+		padding-left: 70px;
+		border-left: 5px solid #e6cac9;
+		border-right: 5px solid #e6cac9;
+}
+
+#content-wrap-bottom {
+		background-color: #d0cabc;
+		background-image: url('../images/vintage-frame-bottom-thin-lt.png');
+		background-repeat: no-repeat;
+		height: 53px;
+		margin-left: 250px;
+		border-left: 5px solid #e6cac9;
+		border-right: 5px solid #e6cac9;
+		border-bottom: 5px solid #e6cac9;
+}
+
 #resume-content h1, #portfolio-spread h1, #portfolio-item h1, #about-content h1, #home-content h1{
-        font-family: Lucida Grande, sans-serif;
+        font-family: Eras Medium ITC, Lucida Sans Unicode, sans-serif;
         font-size: 1.5em;
         font-weight: bold;
 		padding-bottom: 30px;
@@ -190,8 +229,9 @@ ul {
 }
 
 #resume-content h2, #portfolio-spread h2, #portfolio-item h2, #about-content h2, #home-content h2{
-        font-size: 1.2em;
-        font-weight: bold;
+        font-family: Eras Medium ITC, Lucida Sans Unicode, sans-serif;
+		font-size: 1.2em;
+        font-weight: normal;
 		padding-bottom: 15px;
         color: #333038;
 }
@@ -219,11 +259,15 @@ ul {
 #portfolio-spread ul li {
 		height: 100px;
 		margin-bottom: 40px;
+		font-family: Eras Medium ITC, Lucida Sans Unicode, sans-serif;
+		font-size: 1.2em;
+        font-weight: normal;
+        color: #333038;
 }
 
 #portfolio-spread ul li a {
-        font-size: 1.2em;
-        font-weight: bold;
+        font-size: 1.1em;
+        font-weight: normal;
 padding-bottom: 15px; padding-top: 15px; padding-right: 15px; padding-left: 15px;
         color: #333038;
 		height: 100px;
@@ -231,17 +275,17 @@ padding-bottom: 15px; padding-top: 15px; padding-right: 15px; padding-left: 15px
 }
 
 #portfolio-spread a:hover {
-		border: 5px solid #d3d3d3;
+		border: 5px solid gray;
 		height: 100px;
 		text-decoration: none;
 padding-bottom: 10px; padding-top: 10px; padding-right: 10px; padding-left: 10px;
-		background-image: url('../images/vintage-frame.png');
+		background-image: url('../images/vintage-frame2.png');
 		background-repeat: no-repeat;
 }
 #portfolio-spread ul li p {
 		position: relative;
 		margin-top: -60px;
-		left: 450px;
+		left: 430px;
 		width: 200px;
 }
 
