@@ -267,9 +267,6 @@ ul {
 		padding-bottom: 40px;
 }
 
-#home-resume ul li a:hover {
-		color: #e6cac9;
-}
 
 #home-portfolio img {
 		border: 3px solid #e6cac9;
@@ -285,10 +282,6 @@ ul {
 
 #education ul, #experience ul {
 		padding-bottom: 15px;
-}
-
-#portfolio-item ul li ul{
-		margin-top: 10px;
 }
 
 #portfolio-spread ul li {
@@ -339,18 +332,30 @@ ul {
 		margin-right: 30px;
 		border: 3px solid #e6cac9;
 }
+
+#portfolio-item ul {
+		margin-top: 10px;
+		margin-right: 10px;
+}
+
+.item-extras {
+		text-align: right;
+		margin-right: 15px;
+		font-weight: bold;
+}
 	
 .accessibility {
 		text-indent: -11000px;
 }
 	
 .phases {
-		padding-bottom: 40px;
+		padding-bottom: 20px;
 }
 
 .phases li {
 		padding-top: 5px;
 		list-style: circle;
+		margin-bottom: 10px;
 }
 
 .location {

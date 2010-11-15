@@ -13,7 +13,7 @@ a {
 
 body * {
         background-color: #ffffff;
-        font-family: Times, serif;
+        font-family: Eras Light ITC, sans-serif;
         font-size: medium;
         color: #000000;
 		margin: 0px;
@@ -71,7 +71,7 @@ ul {
 
 #footer #contact li {
 	float:left;
-	margin-right: 60px;
+	margin-right: 50px;
 }
 
 #footer a{
@@ -132,10 +132,6 @@ ul {
 		padding-bottom: 15px;
 }
 
-#portfolio-item ul {
-		margin-top: 20px;
-}
-
 #portfolio-spread ul li {
 		height: 100px;
 		margin-bottom: 40px;
@@ -165,20 +161,32 @@ padding-bottom: 15px; padding-top: 15px; padding-right: 15px; padding-left: 15px
 
 #portfolio-item img {
 		float: left;
-		margin-right: 40px;
+		margin-right: 30px;
+		border: 3px solid #e6cac9;
+}
+
+#portfolio-item ul {
+		margin-top: 10px;
+		margin-right: 10px;
 }
 	
 .accessibility {
 		text-indent: -11000px;
 }
+
+.item-extras {
+		text-align: right;
+		margin-right: 30px;
+}
 	
 .phases {
-		padding-bottom: 40px;
+		padding-bottom: 20px;
 }
 
 .phases li {
 		padding-top: 5px;
 		list-style: circle;
+		margin-bottom: 10px;
 }
 
 .location {
