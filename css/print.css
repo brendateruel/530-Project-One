@@ -12,9 +12,9 @@ a {
 }
 
 body * {
-        background-color: white;
+        background-color: #ffffff;
         font-family: Times, serif;
-        font-size: 14px;
+        font-size: small;
         color: #000000;
 		margin: 0px;
 }
@@ -23,75 +23,320 @@ ul {
 		list-style: none;
 }
 
+p {
+	padding-bottom: 15px;
+}
+
+a   {
+        text-decoration: none;
+        color: #e6cac9;
+}
+
+a:hover {
+		text-decoration: underline;
+}
+
+body#resume #header #nav a#nav-resume, body#portfolio #header #nav a#nav-portfolio, body#about #header #nav a#nav-about {
+		color: #ffffff;
+		font-weight: bold;
+		text-decoration: none;
+		background-image: url('../images/pink-pattern-edit.jpg');
+		background-repeat: repeat;
+}
+
+body#portfolio #page-menu a#page-menu-portfolio {
+		color: #e6cac9;
+}
+
+ul {
+		list-style: none;
+}
+
 #header {
-        position: relative;
-		top: 0px;
-		left: 0px;
-        padding-top: 0px;
-		margin-bottom: 10px;
-		height: 100px;
-        text-align: center;
-		border-bottom: 1px dotted #000000;
+		background-color: #d3d3d3;
+		border-bottom: 10px solid #ffffff;
+		height: 120px;
 }
 
 #header h1 {
-        font-family: Lucida Grande, sans-serif;
-        font-size: 24px;
+		text-indent: -11000px;
+        font-family: Eras Light ITC, Lucida Sans Unicode, sans-serif;
+        font-size: 2em;
         font-weight: normal;
+		color: #000000;
+	background-image: url('../images/brenda-gail-teruel.png');
+	background-repeat: no-repeat;
 }
 
-#header ul#address {
-        font-size: 10px;
+#header h1 a {
+   		padding-left: 100px;
+		width: 534px;
+		color: #000000;
+		display: block;
+		height: 120px;
 }
 
-#header ul#address a{
-        font-size: 10px;
+#header h1 a:hover {
+		color: #ffffff;
+		font-weight: bold;
+		text-decoration: none;
+	background-image: url('../images/brenda-gail-teruel-pink.png');
+	background-repeat: no-repeat;
 }
 
-#menu { 
-		display:none; 
+#nav {
+	position: absolute;
+	left: 634px;
+	top: 0px;
 }
 
-#resume-content, #portfolio {
-		position: relative;
+#nav li{
+		float: left;
+		
+}
+
+#nav li {
+		background-color: gray;
+		width: 120px;
+		height: 120px;
+		border-left: 10px solid #ffffff;
+		text-align: center;
+}
+
+#nav li a {
+        padding-top: 50px;
+		color: #000000;
+		display: block;
+		height: 70px;
+}
+
+#nav li a:hover{
+		color: #ffffff;
+		font-weight: bold;
+		text-decoration: none;
+		background-image: url('../images/pink-pattern-edit.jpg');
+		background-repeat: repeat;
+}
+
+#footer {
+        height: 50px;
+		color: #ffffff;
+		background-color: gray;
+		font-size: .7em;
+		margin-top: 10px;
+		padding-top: 30px;
+		padding-bottom: 60px;
+}
+
+#footer #contact {
+	text-align: center;
+}
+
+#footer a{
+        font-size: 1em;
+}
+
+#footer #cc{
+	text-align: right;
+	margin-left: 700px;	
+	padding-right: 30px;
+}
+
+#page-menu {
+        position: absolute;
 		left: 0px;
-		top: 0px;
+		top: 140px;
+		width: 200px;
+		padding-top: 20px;
+        padding-left: 50px;
+}
+
+#page-menu p {
+		font-weight: normal;
+		font-size: .8em;
+		padding-left: 15px;
+		padding-right: 15px;
+		color: gray;
+		text-align: right;
+}
+
+#page-menu p a {
+		color: gray;
+		font-weight: bold;
+}
+
+#page-menu li {
+		color: #e6cac9;
+		font-weight: bold;
+}
+
+#page-menu ul li {
+		font-weight: normal;
+		font-size: .8em;
+		padding-left: 20px;
+}
+
+#page-menu a {
+		color: #000000;
+}
+
+#page-menu a:hover {
+        color: #e6cac9;
+		font-weight: bold;
+		text-decoration: none;
+
+}
+
+#content-wrap-top {
+		background-color: #d0cabc;
+		background-image: url('../images/vintage-frame-top-thin-lt.png');
+		background-repeat: no-repeat;
+		height: 53px;
+		margin-left: 250px;
+		border-left: 5px solid #e6cac9;
+		border-right: 5px solid #e6cac9;
+		border-top: 5px solid #e6cac9;
+}
+
+#portfolio-spread, #portfolio-item, #home-content {
+		background-color: #d0cabc;
+		background-image: url('../images/vintage-frame-body-thin-lt.png');
+		background-repeat: repeat;
+		min-height: 500px;
+		margin-left: 250px;
+		padding-right: 50px;
+		padding-left: 70px;
+		padding-top: 20px;
 		padding-bottom: 50px;
-
+		border-left: 5px solid #e6cac9;
+		border-right: 5px solid #e6cac9;
+		background-color: #ffffff;
 }
 
-#resume-content h1, #portfolio h1 {
-        font-family: Lucida Grande, sans-serif;
-        font-size: 18px;
+#about-content, #resume-content, #portfolio-spread {
+		background-color: #d0cabc;
+		background-image: url('../images/vintage-frame-body-thin-lt.png');
+		background-repeat: repeat;
+		min-height: 500px;
+		margin-left: 250px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-right: 70px;
+		padding-left: 70px;
+		border-left: 5px solid #e6cac9;
+		border-right: 5px solid #e6cac9;
+}
+
+#content-wrap-bottom {
+		background-color: #d0cabc;
+		background-image: url('../images/vintage-frame-bottom-thin-lt.png');
+		background-repeat: no-repeat;
+		height: 53px;
+		margin-left: 250px;
+		border-left: 5px solid #e6cac9;
+		border-right: 5px solid #e6cac9;
+		border-bottom: 5px solid #e6cac9;
+}
+
+#resume-content h1, #portfolio-spread h1, #portfolio-item h1, #about-content h1, #home-content h1 {
+        font-family: Eras Medium ITC, Lucida Sans Unicode, sans-serif;
+        font-size: 1.5em;
         font-weight: bold;
-		padding-bottom: 15px;
+		padding-bottom: 30px;
+        color: #333038;
 }
 
-#resume-content h2, #portfolio h2 {
-        font-size: 16px;
-        font-weight: bold;
+#resume-content h2, #portfolio-spread h2, #portfolio-item h2, #about-content h2, #home-content h2 {
+        font-family: Eras Medium ITC, Lucida Sans Unicode, sans-serif;
+		font-size: 1.2em;
+        font-weight: normal;
 		padding-bottom: 15px;
+        color: #333038;
 }
 
-#education ul li, #experience ul li, #skills ul li{
+#home-content p {
+		font-weight: normal;
+		font-size: .8em;
+		text-indent: 350px;
+}
+
+#home-content p a {
+		color: gray;
+}
+
+#home-portfolio {
+		margin-left: 70px;
+}
+
+#home-portfolio img {
+		border: 5px solid #e6cac9;
+		margin-top: 10px;
+		margin-right: 10px;
+		margin-left: 10px;
+		margin-bottom: 10px;
+}
+		
+#education ul li, #experience ul li, #skills ul li {
 		margin-left: 25px;
 }
 
 #education ul, #experience ul {
-		padding-bottom: 10px;
-}
-
-#portfolio ul {
 		padding-bottom: 15px;
 }
 
-#portfolio img {
+#portfolio-item ul {
 		margin-top: 20px;
 }
 
+#portfolio-spread ul li {
+		height: 100px;
+		margin-bottom: 40px;
+		font-family: Eras Medium ITC, Lucida Sans Unicode, sans-serif;
+		font-size: 1.2em;
+        font-weight: normal;
+        color: #333038;
+}
+
+#portfolio-spread ul li a {
+        font-size: 1em;
+        font-weight: normal;
+padding-bottom: 15px; padding-top: 15px; padding-right: 15px; padding-left: 15px;
+        color: #333038;
+		height: 100px;
+		display: block;
+}
+
+#portfolio-spread a:hover {
+		border: 5px solid #e6cac9;
+		height: 100px;
+		text-decoration: none;
+padding-bottom: 10px; padding-top: 10px; padding-right: 10px; padding-left: 10px;
+		background-image: url('../images/vintage-frame2.png');
+		background-repeat: no-repeat;
+}
+#portfolio-spread ul li p {
+		position: relative;
+		margin-top: -60px;
+		left: 430px;
+		width: 200px;
+}
+
+#portfolio-spread img {
+		margin-right: 50px;
+		border: 1px solid #d3d3d3;
+}
+
+#portfolio-item img {
+		float: left;
+		margin-right: 50px;
+}
+	
+.accessibility {
+		text-indent: -11000px;
+}
+	
 .phases li {
-		padding-top: 15px;
-		margin-left: 50px;
+		padding-top: 5px;
 		list-style: circle;
 }
 
@@ -106,3 +351,4 @@ ul {
 .items ul li {
 		list-style: circle;
 }
+
