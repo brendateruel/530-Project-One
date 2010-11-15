@@ -9,10 +9,10 @@ body {
 }
 
 p {
-	padding-bottom: 15px;
+		padding-bottom: 15px;
 }
 
-a   {
+a {
         text-decoration: none;
         color: #e6cac9;
 }
@@ -29,7 +29,7 @@ body#resume #header #nav a#nav-resume, body#portfolio #header #nav a#nav-portfol
 		background-repeat: repeat;
 }
 
-body#portfolio #page-menu a#page-menu-portfolio {
+body#portfolio #page-menu a#page-menu-portfolio, body#portfolio #page-menu a#page-menu-portfolio-item {
 		color: #e6cac9;
 }
 
@@ -49,8 +49,8 @@ ul {
         font-size: 2em;
         font-weight: normal;
 		color: #000000;
-	background-image: url('../images/brenda-gail-teruel.png');
-	background-repeat: no-repeat;
+		background-image: url('../images/brenda-gail-teruel.png');
+		background-repeat: no-repeat;
 }
 
 #header h1 a {
@@ -65,17 +65,17 @@ ul {
 		color: #ffffff;
 		font-weight: bold;
 		text-decoration: none;
-	background-image: url('../images/brenda-gail-teruel-pink.png');
-	background-repeat: no-repeat;
+		background-image: url('../images/brenda-gail-teruel-pink.png');
+		background-repeat: no-repeat;
 }
 
 #nav {
-	position: absolute;
-	left: 634px;
-	top: 0px;
+		position: absolute;
+		left: 634px;
+		top: 0px;
 }
 
-#nav li{
+#nav li {
 		float: left;
 		
 }
@@ -95,7 +95,7 @@ ul {
 		height: 70px;
 }
 
-#nav li a:hover{
+#nav li a:hover {
 		color: #ffffff;
 		font-weight: bold;
 		text-decoration: none;
@@ -114,20 +114,20 @@ ul {
 }
 
 #footer #contact {
-	text-align: center;
+		text-align: center;
 }
 
-#footer a{
+#footer a {
         font-size: 1em;
 }
 
-#footer #cc{
-	text-align: right;
-	margin-left: 700px;	
-	padding-right: 30px;
+#footer #cc {
+		text-align: right;
+		margin-left: 700px;	
+		padding-right: 30px;
 }
 
-#page-menu {
+#page-menu , #about-preview {
         position: absolute;
 		left: 0px;
 		top: 140px;
@@ -136,7 +136,7 @@ ul {
         padding-left: 50px;
 }
 
-#page-menu p {
+#page-menu p, #about-preview p {
 		font-weight: normal;
 		font-size: .8em;
 		padding-left: 15px;
@@ -145,7 +145,7 @@ ul {
 		text-align: right;
 }
 
-#page-menu p a {
+#page-menu p a, #about-preview p a {
 		color: gray;
 		font-weight: bold;
 }
@@ -161,11 +161,11 @@ ul {
 		padding-left: 20px;
 }
 
-#page-menu a {
+#page-menu a, #about-preview a {
 		color: #000000;
 }
 
-#page-menu a:hover {
+#page-menu a:hover, #about-preview {
         color: #e6cac9;
 		font-weight: bold;
 		text-decoration: none;
@@ -183,7 +183,7 @@ ul {
 		border-top: 5px solid #e6cac9;
 }
 
-#portfolio-spread, #portfolio-item, #home-content {
+#portfolio-item, #home-content {
 		background-color: #d0cabc;
 		background-image: url('../images/vintage-frame-body-thin-lt.png');
 		background-repeat: repeat;
@@ -195,7 +195,6 @@ ul {
 		padding-bottom: 50px;
 		border-left: 5px solid #e6cac9;
 		border-right: 5px solid #e6cac9;
-		background-color: #ffffff;
 }
 
 #about-content, #resume-content, #portfolio-spread {
@@ -273,7 +272,7 @@ ul {
 }
 
 #home-portfolio img {
-		border: 5px solid #e6cac9;
+		border: 3px solid #e6cac9;
 		margin-top: 10px;
 		margin-right: 10px;
 		margin-left: 10px;
@@ -288,8 +287,8 @@ ul {
 		padding-bottom: 15px;
 }
 
-#portfolio-item ul {
-		margin-top: 20px;
+#portfolio-item ul li ul{
+		margin-top: 10px;
 }
 
 #portfolio-spread ul li {
@@ -304,7 +303,10 @@ ul {
 #portfolio-spread ul li a {
         font-size: 1em;
         font-weight: normal;
-padding-bottom: 15px; padding-top: 15px; padding-right: 15px; padding-left: 15px;
+		padding-bottom: 15px;
+		padding-top: 15px;
+		padding-right: 15px;
+		padding-left: 15px;
         color: #333038;
 		height: 100px;
 		display: block;
@@ -314,31 +316,38 @@ padding-bottom: 15px; padding-top: 15px; padding-right: 15px; padding-left: 15px
 		border: 5px solid #e6cac9;
 		height: 100px;
 		text-decoration: none;
-padding-bottom: 10px; padding-top: 10px; padding-right: 10px; padding-left: 10px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+		padding-right: 10px;
+		padding-left: 10px;
 		background-image: url('../images/vintage-frame2.png');
 		background-repeat: no-repeat;
 }
-#portfolio-spread ul li p {
+
+.portfolio-title {
 		position: relative;
-		margin-top: -60px;
-		left: 430px;
-		width: 200px;
+		top: -40px;
+		left: 25px;
 }
 
 #portfolio-spread img {
-		margin-right: 50px;
 		border: 1px solid #d3d3d3;
 }
 
 #portfolio-item img {
 		float: left;
-		margin-right: 50px;
+		margin-right: 30px;
+		border: 3px solid #e6cac9;
 }
 	
 .accessibility {
 		text-indent: -11000px;
 }
 	
+.phases {
+		padding-bottom: 40px;
+}
+
 .phases li {
 		padding-top: 5px;
 		list-style: circle;
