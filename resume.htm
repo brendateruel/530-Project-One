@@ -4,11 +4,23 @@
 <head>
 
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="stylesheet" type="text/css" href="css/reset-min.css" media="screen" />
+	<link href="http://fonts.googleapis.com/css?family=Tangerine:regular|IM+Fell+Double+Pica:regular|Vollkorn:regular,italic,bold" rel="stylesheet" type="text/css" >
+	<link rel="stylesheet" type="text/css" href="css/reset-min.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="css/styles.css" media="screen" /> 
     <link rel="stylesheet" type="text/css" href="css/print.css" media="print" /> 
 	<title>Resume: Brenda Gail Teruel</title>
 
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+	<script type="text/javascript">
+
+  /*Events to happen once the document/DOM has loaded:*/
+  $(document).ready(function() {
+	$('ul#education ul').hide();
+	$('li').click(function() {
+		$(this).next().slideToggle('5000');
+});
+	</script>
+	
 </head>
 
 <!-- added body id tags and nav link id tags for active navigation styling, i.e. "you are here" 
