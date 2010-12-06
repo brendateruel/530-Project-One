@@ -4,7 +4,7 @@
 <head>
 
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<link href="http://fonts.googleapis.com/css?family=Tangerine:regular|IM+Fell+Double+Pica:regular|Vollkorn:regular,italic,bold" rel="stylesheet" type="text/css" >
+	<link href="http://fonts.googleapis.com/css?family=Tangerine:regular|IM+Fell+Double+Pica:regular|Vollkorn:regular,italic,bold" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" type="text/css" href="css/reset-min.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="css/styles.css" media="screen" /> 
     <link rel="stylesheet" type="text/css" href="css/print.css" media="print" /> 
@@ -15,9 +15,26 @@
 
   /*Events to happen once the document/DOM has loaded:*/
   $(document).ready(function() {
-	$('ul#education ul').hide();
-	$('li').click(function() {
-		$(this).next().slideToggle('5000');
+	$('ul#schools').hide();
+	$('ul#education h2').click(function() {
+		$('ul#schools').slideToggle('3000');
+});
+	$('ul#jobs').hide();
+	$('ul#experience h2').click(function() {
+		$('ul#jobs').slideToggle('3000');
+});
+	$('ul#skills ul').hide();
+	$('ul#skills h2').click(function() {
+		$('ul#skills ul').slideToggle('3000');
+});
+	$('li#page-menu-about p').hide();
+	$('li#page-menu-about').click(function() {
+		$('li#page-menu-about p').slideToggle('3000');
+});
+	$('li#page-menu-portfolio ul').hide();
+	$('li#page-menu-portfolio').click(function() {
+		$('li#page-menu-portfolio ul').slideToggle('3000');
+});
 });
 	</script>
 	
@@ -40,16 +57,6 @@ source: http://www.mstudiostalk.com/2008/03/11/pure-css-to-display-the-active-pa
 					<li><a href="portfolio.htm" id="nav-portfolio">Portfolio</a></li>
 				</ul>
 		</div>		
-		
-	<ul id="page-menu">
-        <li>Resume
-			<ul>
-				<li><a href="resume.htm#education">Education</a></li>
-				<li><a href="resume.htm#experience">Work Experience</a></li>
-				<li><a href="resume.htm#skills">Skills</a></li>	
-			</ul>
-		</li>
-    </ul>
 
     <div id="content-wrap-top">
 	</div>    
@@ -57,8 +64,8 @@ source: http://www.mstudiostalk.com/2008/03/11/pure-css-to-display-the-active-pa
         <h1>Resume</h1>
 
 			<ul id="education">
-				<li><h2>Education</h2>	
-					<ul>
+				<li><h2>+ Education</h2>	
+					<ul id="schools">
 						<li><span class="location">Illinois Institute of Technology,</span> Chicago, IL
 							<ul>
 								<li>Master of Science, Information Architecture</li>
@@ -81,8 +88,8 @@ source: http://www.mstudiostalk.com/2008/03/11/pure-css-to-display-the-active-pa
 			</ul>	
 					
 		<ul id="experience">
-			<li><h2>Work Experience</h2>
-                <ul>
+			<li><h2>+ Work Experience</h2>
+                <ul id="jobs">
 					<li><span class="location">Soulsight,</span> Highland Park, IL
 						<ul>
 							<li>Digital Specialist, Account Services and New Business, January 2009 - Present
@@ -121,7 +128,7 @@ source: http://www.mstudiostalk.com/2008/03/11/pure-css-to-display-the-active-pa
 		</ul>
 		
 		<ul id="skills">
-			<li><h2>Skills</h2>
+			<li><h2>+ Skills</h2>
 				<ul class="items">
 					<li>Microsoft Office</li>
 					<li>iWork</li>
@@ -140,7 +147,33 @@ source: http://www.mstudiostalk.com/2008/03/11/pure-css-to-display-the-active-pa
 	</div>
 	<div id="content-wrap-bottom">
 	</div>
-	
+		
+	<ul id="page-menu">
+		<li><a href="index.htm" id="page-menu-home">Home</a></li>	
+		<li id="page-menu-about">+ About Me
+			<p>After graduating cum laude from New York University's Music Business program, Brenda transitioned from intern to Assistant Programming Manager within the AOL Programming division based in New York City...<br />
+			<a href="about.htm">Read more about Brenda...</a></p>
+		</li>
+		<li id="page-menu-resume">+ Resume
+			<ul>
+				<li><a href="resume.htm#resume-content">View Full Resume</a></li>
+				<li><a href="resume.htm#education">Education</a></li>
+				<li><a href="resume.htm#experience">Work Experience</a></li>
+				<li><a href="resume.htm#skills">Skills</a></li>	
+			</ul>
+		</li>
+        <li id="page-menu-portfolio">+ Portfolio
+			<ul>
+				<li><a href="portfolio.htm">View Full Portfolio</a></li>
+				<li><a href="portfolio/soulsight-file-portal.htm">Soulsight File Portal</a></li>
+				<li><a href="portfolio/aol-music.htm">AOL Music</a></li>
+				<li><a href="portfolio/aol-search.htm">AOL Search</a></li>
+				<li><a href="portfolio/craigslist-redesign.htm">Craigslist Redesign Project</a></li>
+				<li><a href="portfolio/mapa-alumni.htm">Mapa Alumni Project</a></li>					
+			</ul>
+		</li>
+    </ul>
+
 	<div id="footer">
 		<ul id="contact">		
 			<li>3006 N. Racine #3, Chicago, IL 60657</li>

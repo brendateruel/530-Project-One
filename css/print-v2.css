@@ -1,0 +1,203 @@
+/*
+Copyright (c) 2010, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.com/yui/license.html
+version: 2.8.1
+*/
+html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}del,ins{text-decoration:none;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:baseline;}sub{vertical-align:baseline;}legend{color:#000;}input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}input,button,textarea,select{font-size:100%;}
+
+a { 
+		text-decoration: none; 
+		color: #000; 
+}
+
+body * {
+        background-color: #ffffff;
+        font-family: Eras Light ITC, sans-serif;
+        font-size: medium;
+        color: #000000;
+		margin: 0px;
+}
+
+ul {
+		list-style: none;
+}
+
+p {
+	padding-bottom: 15px;
+}
+
+a   {
+        text-decoration: none;
+}
+
+a:hover {
+		text-decoration: underline;
+}
+
+body#resume #header #nav a#nav-resume, body#portfolio #header #nav a#nav-portfolio, body#about #header #nav a#nav-about {
+		display: none;
+}
+
+ul {
+		list-style: none;
+}
+
+#header h1, #header h1 a {
+        font-size: 1.6em;
+        font-weight: normal;
+		color: #000000;
+}
+
+#nav, #content-wrap-top, #content-wrap-bottom, #page-menu {
+	display: none;
+}
+
+#about-preview p a{
+		font-weight: normal;
+		font-style: italic;
+}
+
+
+#footer {
+		margin-top: 30px;
+		padding-top: 30px;
+		padding-bottom: 60px;
+}
+
+#footer #contact {
+	margin-bottom: 60px;
+}
+
+#footer #contact li {
+	float:left;
+	margin-right: 50px;
+}
+
+#footer a{
+        font-size: 1em;
+}
+
+#footer #cc{
+	text-align: left;
+}
+
+#portfolio-item, #home-content, #portfolio-spread  {
+		min-height: 300px;
+		padding-right: 50px;
+		margin-bottom: 200px;
+}
+
+#about-content, #resume-content {
+		min-height: 300px;
+		margin-bottom: 50px;
+		padding-right: 70px;
+}
+
+#resume-content h1, #portfolio-spread h1, #portfolio-item h1, #about-content h1, #home-content h1 {
+        font-size: 1.6em;
+        font-weight: bold;
+		padding-bottom: 30px;
+}
+
+#resume-content h2, #portfolio-spread h2, #portfolio-item h2, #about-content h2, #home-content h2 , #home-content h2 a{
+		font-size: 1.2em;
+        font-weight: normal;
+		font-style: italic;
+		padding-bottom: 15px;
+}
+
+#home-content p {
+		font-weight: normal;
+		font-size: .8em;
+}
+
+#home-portfolio li, #home-portfolio p{
+		margin-left: 70px;
+}
+
+#home-portfolio img {
+		border: 3px solid #e6cac9;
+		margin-top: 10px;
+		margin-right: 10px;
+		margin-left: 10px;
+		margin-bottom: 10px;
+}
+		
+#education ul li, #experience ul li, #skills ul li {
+		margin-left: 25px;
+}
+
+#education ul, #experience ul {
+		padding-bottom: 15px;
+}
+
+#portfolio-spread ul li {
+		height: 100px;
+		margin-bottom: 40px;
+		font-size: 1.2em;
+        font-weight: normal;
+        color: #333038;
+}
+
+#portfolio-spread ul li a {
+        font-size: 1em;
+        font-weight: normal;
+padding-bottom: 15px; padding-top: 15px; padding-right: 15px; padding-left: 15px;
+        color: #333038;
+		height: 100px;
+		display: block;
+}
+
+.portfolio-title {
+		position: relative;
+		top: -40px;
+		left: 25px;
+}
+
+#portfolio-spread img {
+		border: 1px solid #d3d3d3;
+}
+
+#portfolio-item img {
+		float: left;
+		margin-right: 30px;
+		border: 3px solid #e6cac9;
+}
+
+#portfolio-item ul {
+		margin-top: 10px;
+		margin-right: 10px;
+}
+	
+.accessibility {
+		text-indent: -11000px;
+}
+
+.item-extras {
+		text-align: right;
+		margin-right: 30px;
+}
+	
+.phases {
+		padding-bottom: 20px;
+}
+
+.phases li {
+		padding-top: 5px;
+		list-style: circle;
+		margin-bottom: 10px;
+}
+
+.location {
+		font-weight: bold;
+}
+
+.items li {
+		list-style: disc;
+}
+
+.items ul li {
+		list-style: circle;
+}
+

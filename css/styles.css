@@ -29,7 +29,7 @@ body#resume #header #nav a#nav-resume, body#portfolio #header #nav a#nav-portfol
 		background-repeat: repeat;
 }
 
-body#portfolio #page-menu a#page-menu-portfolio, body#portfolio #page-menu a#page-menu-portfolio-item {
+body#portfolio #page-menu li#page-menu-portfolio, body#portfolio #page-menu a#page-menu-portfolio-item, body#about #page-menu li#page-menu-about, body#resume #page-menu li#page-menu-resume, body#home #page-menu a#page-menu-home {
 		color: #e6cac9;
 }
 
@@ -128,7 +128,7 @@ ul {
 		padding-right: 30px;
 }
 
-#page-menu , #about-preview {
+#page-menu {
         position: absolute;
 		left: 0px;
 		top: 140px;
@@ -137,8 +137,10 @@ ul {
         padding-left: 50px;
 }
 
-#page-menu p, #about-preview p {
+li#page-menu-about p {
+        font-family: 'IM Fell Double Pica', Lucida Sans Unicode, sans-serif;
 		font-weight: normal;
+		font-style: normal;
 		font-size: .8em;
 		padding-left: 15px;
 		padding-right: 15px;
@@ -146,30 +148,26 @@ ul {
 		text-align: right;
 }
 
-#page-menu p a, #about-preview p a {
+#page-menu li p a {
 		color: gray;
-		font-weight: bold;
 }
 
-#page-menu li {
-		color: #e6cac9;
+#page-menu li a, #page-menu li {
+		color: #000000;
 		font-weight: bold;
 		font-style: italic;
 }
 
-#page-menu ul li {
+#page-menu ul li a {
         font-family: 'Vollkorn', Lucida Sans Unicode, sans-serif;
 		font-weight: normal;
 		font-style: italic;
 		font-size: .8em;
 		padding-left: 20px;
+		color: gray;
 }
 
-#page-menu a, #about-preview a {
-		color: #000000;
-}
-
-#page-menu a:hover, #about-preview {
+#page-menu a:hover{
         color: #e6cac9;
 		text-decoration: none;
 
