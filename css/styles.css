@@ -43,6 +43,7 @@ header {
 		border-bottom: 1px solid #000000;
 		width: 1024px;
 		height: 120px;
+    display:block;
 }
 
 header h1 {
@@ -62,7 +63,7 @@ header h1 {
 }
 
 header h1 a {
-   		padding-left: 100px;
+   	padding-left: 100px;
 		padding-top: 35px;
 		color: #000000;
 		display: block;
@@ -72,12 +73,13 @@ header h1 a {
 header h1 a:hover {
 		color: #ffffff;
 		text-decoration: none;
-		background-image: url('../images/brenda-gail-teruel-pink.png');
+    background: url('../images/brenda-gail-teruel-pink.png');
 		background-repeat: no-repeat;
 }
 
 footer {
-        height: 50px;
+    display:block;    
+    height: 50px;
 		color: #666666;
 		background-color: #ffffff;
 		font-size: .8em;
