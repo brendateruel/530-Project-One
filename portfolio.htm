@@ -13,8 +13,24 @@
   /*Events to happen once the document/DOM has loaded:*/
   $(document).ready(function() {
 	$('li#page-menu-portfolio ul').hide();
-s	$('li#page-menu-portfolio').click(function() {
+	$('li#page-menu-portfolio').click(function() {
 		$('li#page-menu-portfolio ul').slideToggle('3000');
+});
+	$('li#aol-music .portfolio-title').hide();
+	$('li#aol-music img').click(function() {
+		$('li#aol-music .portfolio-title').slideToggle('3000');
+});
+	$('li#soulsight-file-portal .portfolio-title').hide();
+	$('li#soulsight-file-portal img').click(function() {
+		$('li#soulsight-file-portal .portfolio-title').slideToggle('3000');
+});
+	$('li#aol-search .portfolio-title').hide();
+	$('li#aol-search img').click(function() {
+		$('li#aol-search .portfolio-title').slideToggle('3000');
+});
+	$('li#craigslist .portfolio-title').hide();
+	$('li#craigslist img').click(function() {
+		$('li#craigslist .portfolio-title').slideToggle('3000');
 });
 });
 	</script>	
@@ -35,22 +51,26 @@ s	$('li#page-menu-portfolio').click(function() {
 	<div id="portfolio-spread">
         <h2>Portfolio</h2>
 			<ul>
-				<li><a href="portfolio/soulsight-file-portal.htm"><img src="images/soulsight-file-portal-preview.png" width="400" height="100" alt="soulsight file portal tool" />
-				<span class="portfolio-title">Soulsight File Portal</span></a>
+				<li id="soulsight-file-portal"><img src="images/soulsight-file-portal-preview.png" alt="soulsight file portal tool" />
+					<ul>
+						<li><span class="portfolio-title">Soulsight File Portal</span></li>
+					</ul>
 				</li>
-				<li><a href="portfolio/aol-music.htm"><img src="images/aol-music-preview.png" width="400" height="100" alt="aol music" />
-				<span class="portfolio-title">AOL Music</span></a>
+				<li id="aol-music"><img src="images/aol-music-preview.png" alt="aol music" />
+					<ul>
+						<li><span class="portfolio-title">AOL Music</span></li>
+					</ul>
 				</li>
-				<li><a href="portfolio/aol-search.htm"><img src="images/aol-search-preview.png" width="400" height="100" alt="aol search" />
-				<span class="portfolio-title">AOL Search</span></a>
+				<li id="aol-search"><img src="images/aol-search-preview.png" alt="aol search" />
+					<ul>
+						<li><span class="portfolio-title">AOL Search</span><li>
+					</ul>
 				</li>
-				<li><a href="portfolio/craigslist-redesign.htm"><img src="images/craigslist-redesign-preview.png" width="400" height="100" alt="craigslist redesign" />
-				<span class="portfolio-title">Craigslist Redesign</span></a>
+				<li id="craigslist"><img src="images/craigslist-redesign-preview.png" alt="craigslist redesign" />
+					<ul>
+						<li><span class="portfolio-title">Craigslist Redesign</span></li>
+					<ul>
 				</li>
-				<li><a href="portfolio/mapa-alumni.htm"><img src="images/mapa-alumni-preview.png" width="400" height="100" alt="mapa-alumni" />
-				<span class="portfolio-title">Mapa Alumni</span></a>
-				</li>
-			</ul>
 	</div>
 
 	<ul id="page-menu">

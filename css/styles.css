@@ -22,15 +22,7 @@ a:hover {
 		text-decoration: underline;
 }
 
-body#resume header #nav a#nav-resume, body#portfolio header #nav a#nav-portfolio, body#about header #nav a#nav-about {
-		color: #ffffff;
-		font-weight: bold;
-		text-decoration: none;
-		background-image: url('../images/pink-pattern-edit.jpg');
-		background-repeat: repeat;
-}
-
-body#portfolio #page-menu li#page-menu-portfolio, body#portfolio #page-menu a#page-menu-portfolio-item, body#about #page-menu li#page-menu-about, body#resume #page-menu a#page-menu-resume, body#home #page-menu a#page-menu-home {
+body#portfolio #page-menu li#page-menu-portfolio, body#portfolio #page-menu a#page-menu-portfolio-item, body#about #page-menu a#page-menu-about, body#resume #page-menu a#page-menu-resume, body#home #page-menu a#page-menu-home {
 		color: #d92f6f;
 }
 
@@ -133,7 +125,11 @@ footer a {
 		color: #d92f6f;
 }
 
-#portfolio-item, #home-content, #resume-content, #portfolio-spread  {
+#contact ul + ul {
+		margin-top: 30px;
+}
+
+#portfolio-item, #home-content, #resume-content {
 		background-color: #ffffff;
 		min-height: 300px;
 		padding-left: 70px;
@@ -167,29 +163,14 @@ footer a {
 		text-indent: 350px;
 }
 
-#home-content p a, #home-content p {
+#home-content p, #about-content p {
+		font-size: 1.5em;
 		color: #666666;
+		margin: 40px 0px 0px 0px;
 }
 
-#home-portfolio ul li {
-		float: left;
-}
-
-#home-resume ul li a{
-		text-indent: 30px;
-		float: left;
-		margin-right: 50px;
-		color: #666666;
-		padding-bottom: 40px;
-}
-
-
-#home-portfolio img {
-		border: 3px solid #e6cac9;
-		margin-top: 10px;
-		margin-right: 10px;
-		margin-left: 10px;
-		margin-bottom: 10px;
+#home-content p a, #about-content p a {
+		color: #d92f6f;
 }
 		
 #education ul li, #experience ul li, #skills ul li {
@@ -210,13 +191,33 @@ li#courses ul li {
 		margin-left: 40px;
 }
 
+#portfolio-spread  {
+		background-color: #f3f3f3;
+		min-height: 300px;
+		padding-right: 20px;
+		padding-left: 20px;
+		padding-top: 20px;
+		padding-bottom: 50px;
+		margin-right: 230px;
+}
+
 #portfolio-spread ul li {
-		height: 100px;
+		padding-bottom: 15px;
+		padding-top: 15px;
+		padding-right: 15px;
 		margin-bottom: 40px;
+		float: left;
         font-family: Verdana, Arial, sans-serif;
 		font-size: 1em;
         font-weight: normal;
         color: #333038;
+		list-style: none;
+}
+
+#portfolio-spread ul li img {
+		width: 150px;
+		height: 150px;
+		border: 1px solid #d3d3d3;
 }
 
 #portfolio-spread ul li a {
@@ -226,30 +227,21 @@ li#courses ul li {
 		padding-right: 15px;
 		padding-left: 15px;
         color: #333038;
-		height: 100px;
 		display: block;
 }
 
 #portfolio-spread a:hover {
 		border: 5px solid #d92f6f;
-		height: 100px;
+		height: 150px;
 		text-decoration: none;
 		padding-bottom: 10px;
 		padding-top: 10px;
 		padding-right: 10px;
 		padding-left: 10px;
-		background-image: url('../images/vintage-frame2.png');
-		background-repeat: no-repeat;
 }
 
 .portfolio-title {
-		position: relative;
-		top: -40px;
-		left: 30px;
-}
 
-#portfolio-spread img {
-		border: 1px solid #d3d3d3;
 }
 
 #portfolio-item img {
