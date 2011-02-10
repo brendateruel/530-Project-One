@@ -12,7 +12,8 @@
 
   /*Events to happen once the document/DOM has loaded:*/
   $(document).ready(function() {
-	$('li#page-menu-portfolio').click(function() {
+	$('li#page-menu-portfolio ul').hide();
+s	$('li#page-menu-portfolio').click(function() {
 		$('li#page-menu-portfolio ul').slideToggle('3000');
 });
 });
@@ -20,7 +21,7 @@
 	
 </head>
 
-<body id="home">
+<body id="portfolio">
 <header>
 	<h1><a href="index.htm">Brenda Gail Teruel</a></h1>
 			<ul class="accessibility">
@@ -79,6 +80,7 @@
 	<div id="cc">		
 		<a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://creativecommons.org/images/public/somerights20.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
 	</div>
+	<p>Built with valid <a href="http://validator.w3.org/check?uri=referer" target="_blank">HTML5</a> and CSS. Enhanced by <a href="http://jquery.com/" target="_blank">JQuery</a>. Designed by Brenda Gail Teruel</p>
 </footer>
 	
 </body>

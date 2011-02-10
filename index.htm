@@ -12,6 +12,7 @@
 
   /*Events to happen once the document/DOM has loaded:*/
   $(document).ready(function() {
+	$('li#page-menu-portfolio ul').hide();
 	$('li#page-menu-portfolio').click(function() {
 		$('li#page-menu-portfolio ul').slideToggle('3000');
 });

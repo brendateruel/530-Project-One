@@ -12,6 +12,7 @@
 
   /*Events to happen once the document/DOM has loaded:*/
   $(document).ready(function() {
+	$('li#page-menu-portfolio ul').hide();
 	$('li#page-menu-portfolio').click(function() {
 		$('li#page-menu-portfolio ul').slideToggle('3000');
 });
@@ -20,7 +21,7 @@
 	
 </head>
 
-<body id="home">
+<body id="resume">
 <header>
 	<h1><a href="index.htm">Brenda Gail Teruel</a></h1>
 			<ul class="accessibility">
@@ -39,12 +40,25 @@
 						<ul>
 							<li>Master of Science, Information Architecture</li>
 							<li>Expected Graduation: 2012</li>
+							<li>Current GPA: 4.0</li>
+							<li id="courses">Relevant Coursework:
+								<ul>
+									<li>Knowledge Management</li>
+									<li>Rhetoric of Technology</li>
+									<li>Web Development</li>
+									<li>Standards-Based Web Design</li>
+									<li>Usability Testing and Evaluation</li>
+									<li>Web Application Development (enrolled)</li>
+									<li>Social Networks (enrolled)</li>
+								</ul>
+							</li>
 						</ul>
 					</li>
 					<li><span class="location">New York University,</span> New York, NY
 						<ul>
 							<li>Bachelor of Music, Music Business, cum laude, May 2007</li>
 							<li>Minor: Graphic Communications</li>
+							<li>Cumulative GPA: 3.645</li>
 						</ul>
 					</li>
 					<li><span class="location">New York University in London,</span> London, England
@@ -59,16 +73,30 @@
 		<ul id="experience">
 			<li><h2>Work Experience</h2>
                 <ul id="jobs">
+					<li><span class="location">Illinois Institute of Technology,</span> Chicago, IL
+						<ul>
+							<li>Part-Time Graduate Assistant, August 2010 - Present
+								<ul class="items">
+									<li>Assist professor in industry research and various project management tasks for Technical Communication department</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
 					<li><span class="location">Soulsight,</span> Highland Park, IL
 						<ul>
-							<li>Digital Specialist, Account Services and New Business, January 2009 - Present
+							<li>Digital Project Manager, January 2009 - Present
 								<ul class="items">
-									<li>Develop strategy and implementation plan for digital projects</li>
-									<li>Administer content updates and feature development projects for company website</li>
-									<li>Program and manage email marketing campaigns and update social media accounts</li>
+									<li>Account manager for digital projects; includes development of strategy, user experience and project plan and day-to-day
+project management from design through execution</li>
+									<li>Owner of company website; includes content management (portfolio, news, blog) and project management and user
+interface design for new site/feature development</li>
+									<li>Manage all social media activities; includes design and development of email marketing campaigns and outreach via
+social networking sites</li>
 									<li>Serve as contact to IT and external programmers for technical / email / web-related issues</li>
-									<li>Assist in new business activities including maintenance of current and prospective client database</li>
-									<li>Support account managers on brand marketing projects including preparing presentation materials, researching, proofreading, and various administrative tasks</li>
+									<li>Assist in new business activities; includes lead generation strategy and maintenance of current and prospective
+client database</li>
+									<li>Support account managers on brand marketing projects including preparing presentation materials, researching,
+proofreading, and various administrative tasks</li>
 								</ul>
 							</li>
 						</ul>
@@ -106,8 +134,18 @@
 					<li>Familiar with:
 						<ul>
 							<li>HTML</li>
+							<li>XHTML</li>
 							<li>CSS</li>
 							<li>Adobe Creative Suite</li>
+							<li>Git</li>
+						</ul>
+					<li>Knowledge of:
+						<ul>
+							<li>JQuery</li>
+							<li>PHP</li>
+							<li>Ruby</li>
+							<li>SQL</li>
+							<li>Joomla! Content Management System configuration</li>
 						</ul>
 					</li>
 				</ul>
@@ -117,7 +155,7 @@
 
 	<ul id="page-menu">
 		<li><a href="index.htm" id="page-menu-home">Home</a></li>	
-		<li id="page-menu-resume"><a href="resume.htm">Resume</a></li>
+		<li><a href="resume.htm" id="page-menu-resume">Resume</a></li>
         <li id="page-menu-portfolio">Portfolio
 			<ul>
 				<li><a href="portfolio.htm">View Full Portfolio</a></li>
@@ -142,6 +180,7 @@
 	<div id="cc">		
 		<a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://creativecommons.org/images/public/somerights20.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
 	</div>
+	<p>Built with valid <a href="http://validator.w3.org/check?uri=referer" target="_blank">HTML5</a> and CSS. Enhanced by <a href="http://jquery.com/" target="_blank">JQuery</a>. Designed by Brenda Gail Teruel</p>
 </footer>
 	
 </body>

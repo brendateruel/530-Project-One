@@ -30,7 +30,7 @@ body#resume header #nav a#nav-resume, body#portfolio header #nav a#nav-portfolio
 		background-repeat: repeat;
 }
 
-body#portfolio #page-menu li#page-menu-portfolio, body#portfolio #page-menu a#page-menu-portfolio-item, body#about #page-menu li#page-menu-about, body#resume #page-menu li#page-menu-resume, body#home #page-menu a#page-menu-home {
+body#portfolio #page-menu li#page-menu-portfolio, body#portfolio #page-menu a#page-menu-portfolio-item, body#about #page-menu li#page-menu-about, body#resume #page-menu a#page-menu-resume, body#home #page-menu a#page-menu-home {
 		color: #d92f6f;
 }
 
@@ -73,7 +73,7 @@ header h1 a {
 header h1 a:hover {
 		color: #ffffff;
 		text-decoration: none;
-    background: url('../images/brenda-gail-teruel-pink.png');
+    background: url('../images/brenda-gail-teruel-active.png');
 		background-repeat: no-repeat;
 }
 
@@ -198,6 +198,16 @@ footer a {
 
 #education ul, #experience ul {
 		padding-bottom: 15px;
+}
+
+li#courses {
+		margin: 10px 0px 0px 0px;
+		font-style: italic;
+}
+
+li#courses ul li {
+		list-style: circle;
+		margin-left: 40px;
 }
 
 #portfolio-spread ul li {
