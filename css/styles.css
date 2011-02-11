@@ -22,7 +22,7 @@ a:hover {
 		text-decoration: underline;
 }
 
-body#portfolio #page-menu li#page-menu-portfolio, body#portfolio #page-menu a#page-menu-portfolio-item, body#about #page-menu a#page-menu-about, body#resume #page-menu a#page-menu-resume, body#home #page-menu a#page-menu-home {
+body#portfolio #page-menu a#page-menu-portfolio, body#portfolio #page-menu a#page-menu-portfolio-item, body#about #page-menu a#page-menu-about, body#resume #page-menu a#page-menu-resume, body#home #page-menu a#page-menu-home {
 		color: #d92f6f;
 }
 
@@ -129,7 +129,7 @@ footer a {
 		margin-top: 30px;
 }
 
-#portfolio-item, #home-content, #resume-content {
+#portfolio-item, #home-content, #resume-content, #about-content {
 		background-color: #ffffff;
 		min-height: 300px;
 		padding-left: 70px;
@@ -163,8 +163,17 @@ footer a {
 		text-indent: 350px;
 }
 
-#home-content p, #about-content p {
+#home-content p {
 		font-size: 1.5em;
+		font-weight: bold;
+		line-height: 2em;
+		color: #666666;
+		margin: 100px 20px 0px 20px;
+}
+
+#about-content p {
+		font-size: 1.2em;
+		line-height: 2em;
 		color: #666666;
 		margin: 40px 0px 0px 0px;
 }
@@ -191,8 +200,13 @@ li#courses ul li {
 		margin-left: 40px;
 }
 
+#gallery {
+		width: 626px;
+		height: 418px;
+		margin: 10px 0px 0px 50px
+}
+
 #portfolio-spread  {
-		background-color: #f3f3f3;
 		min-height: 300px;
 		padding-right: 20px;
 		padding-left: 20px;
@@ -230,7 +244,7 @@ li#courses ul li {
 		display: block;
 }
 
-#portfolio-spread a:hover {
+#portfolio-spread1 a:hover {
 		border: 5px solid #d92f6f;
 		height: 150px;
 		text-decoration: none;

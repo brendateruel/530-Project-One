@@ -4,36 +4,12 @@
 	<meta charset="utf-8" />
 	<link rel="stylesheet" href="css/reset-min.css" media="screen" />
     <link rel="stylesheet" href="css/styles.css" media="screen" /> 
-    <link rel="stylesheet" href="css/print.css" media="print" /> 
-	<title>Home: Brenda Gail Teruel</title>
+	<link rel="stylesheet" type="text/css" href="engine/style.css" media="screen" />
+	<style type="text/css">a#vlb{display:none}</style>	<title>Home: Brenda Gail Teruel</title>
 
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
 	<script type="text/javascript">
-
-  /*Events to happen once the document/DOM has loaded:*/
-  $(document).ready(function() {
-	$('li#page-menu-portfolio ul').hide();
-	$('li#page-menu-portfolio').click(function() {
-		$('li#page-menu-portfolio ul').slideToggle('3000');
-});
-	$('li#aol-music .portfolio-title').hide();
-	$('li#aol-music img').click(function() {
-		$('li#aol-music .portfolio-title').slideToggle('3000');
-});
-	$('li#soulsight-file-portal .portfolio-title').hide();
-	$('li#soulsight-file-portal img').click(function() {
-		$('li#soulsight-file-portal .portfolio-title').slideToggle('3000');
-});
-	$('li#aol-search .portfolio-title').hide();
-	$('li#aol-search img').click(function() {
-		$('li#aol-search .portfolio-title').slideToggle('3000');
-});
-	$('li#craigslist .portfolio-title').hide();
-	$('li#craigslist img').click(function() {
-		$('li#craigslist .portfolio-title').slideToggle('3000');
-});
-});
-	</script>	
+	<script type="text/javascript" src="engine/jquery.js"></script>
 	
 </head>
 
@@ -50,41 +26,37 @@
 
 	<div id="portfolio-spread">
         <h2>Portfolio</h2>
-			<ul>
-				<li id="soulsight-file-portal"><img src="images/soulsight-file-portal-preview.png" alt="soulsight file portal tool" />
-					<ul>
-						<li><span class="portfolio-title">Soulsight File Portal</span></li>
-					</ul>
-				</li>
-				<li id="aol-music"><img src="images/aol-music-preview.png" alt="aol music" />
-					<ul>
-						<li><span class="portfolio-title">AOL Music</span></li>
-					</ul>
-				</li>
-				<li id="aol-search"><img src="images/aol-search-preview.png" alt="aol search" />
-					<ul>
-						<li><span class="portfolio-title">AOL Search</span><li>
-					</ul>
-				</li>
-				<li id="craigslist"><img src="images/craigslist-redesign-preview.png" alt="craigslist redesign" />
-					<ul>
-						<li><span class="portfolio-title">Craigslist Redesign</span></li>
-					<ul>
-				</li>
+		<div id="gallery">
+			<div id="wowslider-container">
+	<div id="wowslider-images">
+<a href="#"><img src="data/images/craigslist.jpg" alt="" title="" id="wows0"/>Craigslist redesign project</a>
+<a href="#"><img src="data/images/soulsight-twitter.jpg" alt="" title="" id="wows1"/>Soulsight Social Media feature development</a>
+<a href="#"><img src="data/images/soulfinder.jpg" alt="" title="" id="wows2"/>Soulsight Soulfinder application</a>
+<a href="#"><img src="data/images/zookie-pro.jpg" alt="" title="" id="wows3"/>Product Development / Project Management for Zookie Pro website design</a>
+<a href="#"><img src="data/images/soulsight-file-portal.jpg" alt="" title="" id="wows4"/>Soulsight File Portal tool</a>
+<a href="#"><img src="data/images/aol-music.jpg" alt="" title="" id="wows5"/>Product Management for AOL Entertainment sites</a>
+</div>
+<div class="ws_bullets">
+<a href="#wows0" title=""></a>
+<a href="#wows1" title=""></a>
+<a href="#wows2" title=""></a>
+<a href="#wows3" title=""></a>
+<a href="#wows4" title=""></a>
+<a href="#wows5" title=""></a>
+</div>
+<a id="vlb" href="http://wowslider.com">Image Slider Vertical by WOWSlider.com v1.1</a>
+	<a href="#" id="wowslider-frame"></a>
+	<div id="wowslider-shadow"></div>
+	</div>
+	<script type="text/javascript" src="engine/script.js"></script>
+		</div>
 	</div>
 
 	<ul id="page-menu">
 		<li><a href="index.htm" id="page-menu-home">Home</a></li>	
-		<li id="page-menu-resume"><a href="resume.htm">Resume</a></li>
-        <li id="page-menu-portfolio">Portfolio
-			<ul>
-				<li><a href="portfolio.htm">View Full Portfolio</a></li>
-				<li><a href="portfolio/soulsight-file-portal.htm">Soulsight File Portal</a></li>
-				<li><a href="portfolio/aol-music.htm">AOL Music</a></li>
-				<li><a href="portfolio/aol-search.htm">AOL Search</a></li>
-				<li><a href="portfolio/craigslist-redesign.htm">Craigslist Redesign Project</a></li>
-				<li><a href="portfolio/mapa-alumni.htm">Mapa Alumni Project</a></li>					
-			</ul>
+		<li><a href="about.htm" id="page-menu-about">About Me</a></li>	
+		<li><a href="resume.htm" id="page-menu-resume">Resume</a></li>
+        <li><a href="portfolio.htm" id="page-menu-portfolio">Portfolio</a>
 		</li>
 		<li id="contact">
 			<ul>		
@@ -92,6 +64,10 @@
 				<li>3006 N. Racine #3</li>
 				<li>Chicago, IL 60657</li>
 				<li>847.903.1811</li>
+			</ul>
+			<ul>
+				<li><a href="http://www.twitter.com/little_bg" target="_blank">@little_bg</a></li>
+				<li><a href="http://www.linkedin.com/in/bgteruel" target="_blank">linkedin</a></li>
 			</ul>
 		</li>
     </ul>
